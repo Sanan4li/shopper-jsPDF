@@ -1,5 +1,5 @@
 import { jsPDF } from "jspdf";
-import { addPageNumbers } from "./index.js";
+import { addPageNumbers } from "../index.js";
 const doc = new jsPDF();
 
 doc.text("Hello world!", 10, 10);

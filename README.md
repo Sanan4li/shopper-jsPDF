@@ -31,8 +31,8 @@ const doc = new jsPDF();
 doc.text("Hello World", 10, 10);
 
 // call this function before saving the file
-// second parameter is optional as default is right
-addPageNumbers(doc);
+// second parameter is optional and it takes an object containing options
+addPageNumbers(doc, { position: "top", align: "center" });
 
 doc.save("a4.pdf");
 ```
