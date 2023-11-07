@@ -1,6 +1,6 @@
 {
   "name": "shopper-jspdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shopper jsPDF is a library to give you components for generating PDF using jsPDF on backend. ",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,13 @@
     "components"
   ],
   "author": "Sanan Ali",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sanan4li/shopper-jsPDF.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sanan4li/shopper-jsPDF/issues"
+  },
+  "homepage": "https://github.com/Sanan4li/shopper-jsPDF#readme"
 }
