@@ -1,6 +1,6 @@
 {
   "name": "shopper-jspdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Shopper jsPDF is a library to give you components for generating PDF using jsPDF on backend. ",
   "main": "index.js",
   "scripts": {
