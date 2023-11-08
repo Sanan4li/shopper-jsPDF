@@ -10,6 +10,8 @@ Working with jsPDF is a bit difficult and it takes a lot of time to create a sim
 
 ### Installation
 
+#### Before installing you have already installed **[jsPDF](https://www.npmjs.com/package/jspdf)** as it is a dependency of this package.
+
 ```bash
  npm install shopper-jspdf
 ```
@@ -37,6 +39,15 @@ addPageNumbers(doc, { position: "top", align: "center" });
 doc.save("a4.pdf");
 ```
 
+### Options
+
+#### Options object takes following properties.
+
+| Option                   | Value                   | Required | Default 
+| ------------------------ | ----------------------- | -------- | ---------------------
+| position                 | top, bottom             | false    | bottom    
+| align                    | left, right, center     | false    | right    
+
 ## Want to contribute?
 
 #### I would love to merge all pull requests if someone wants to contribute to this package. Please make sure you are building something useful which is not already available in this package.
@@ -47,4 +58,4 @@ doc.save("a4.pdf");
 
 ## Thanks!
 
-#### Thank you for being here! Please tag me on [twitter](https://twitter.com/Sanan4li) if you develop something with this package.
+#### Thank you for being here! Let's connect on [twitter](https://twitter.com/Sanan4li).
