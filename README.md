@@ -1,6 +1,6 @@
 # Shopper jsPDF
 
-#### Shopper means 'wrapper' in urdu and this library is a wrapper around jsPDF library. It provides a simple interface to create pdf documents.
+Shopper means 'wrapper' in urdu and this library is a wrapper around jsPDF library. It provides a simple interface to create pdf documents.
 
 ### Motivation
 
@@ -22,7 +22,9 @@ Working with jsPDF is a bit difficult and it takes a lot of time to create a sim
 
 #### Add page numbers to pdf documents with a single line of code.
 
-- **_addPageNumbers(doc, options)_** This method adds page numbers to each page. For example if you have 5 pages in your pdf document then it will add page numbers from 1 to 5 to each page. It takes two parameters. First parameter is the document object and second parameter is an object containing options. The options object is optional. If you don't pass any options then it will use default options.
+**_addPageNumbers(doc, options)_**
+
+This method adds page numbers to each page. For example if you have 5 pages in your pdf document then it will add page numbers from 1 to 5 to each page. It takes two parameters. First parameter is the document object and second parameter is an object containing options. The options object is optional. If you don't pass any options then it will use default options.
 
 ### Example
 
@@ -41,16 +43,18 @@ doc.save("a4.pdf");
 
 ### Options
 
-#### Options object takes following properties.
+Options object takes following properties.
 
-| Option                   | Value                   | Required | Default 
-| ------------------------ | ----------------------- | -------- | ---------------------
-| position                 | top, bottom             | false    | bottom    
-| align                    | left, right, center     | false    | right    
+| Option   | Type   | Value                | Required | Default |
+| -------- | ------ | -------------------- | -------- | ------- |
+| position | String | top, bottom          | false    | bottom  |
+| align    | String | left, right, center  | false    | right   |
+| xOffset  | Number | 20,40, or any number | false    | 20      |
+| yOffset  | Number | 20,40, or any number | false    | 10      |
 
 ## Want to contribute?
 
-#### I would love to merge all pull requests if someone wants to contribute to this package. Please make sure you are building something useful which is not already available in this package.
+I would love to merge all pull requests if someone wants to contribute to this package. Please make sure you are building something useful which is not already available in this package.
 
 ## License
 
@@ -58,4 +62,4 @@ doc.save("a4.pdf");
 
 ## Thanks!
 
-#### Thank you for being here! Let's connect on [twitter](https://twitter.com/Sanan4li).
+Thank you for being here! Let's connect on [twitter](https://twitter.com/Sanan4li).

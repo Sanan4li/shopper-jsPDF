@@ -12,6 +12,7 @@ const addPageNumbers = (doc, options) => {
     xPosition = xOffset;
   }
 
+  // setting the position of the page numbers along y axis
   if (options?.position == "top") {
     yPosition = yOffset;
   } else {
